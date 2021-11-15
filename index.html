@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>adorable</title>
+	<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:ital@1&family=Staatliches&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		header{
+			width: 100%;
+			height: 200px;
+			background-color: white;
+		}
+		.fixtitle{
+			width: 100%;
+			height: 200px;
+			position: fixed;
+			background-color: white;
+		}
+		.title{
+			max-width: 1280px;
+			width: 100%;
+			text-align: center;
+			line-height: 200px;
+		}
+		.adorable{
+			font-size: 50pt;
+			font-family: 'Playfair Display', serif;
+			color: #4B4B4B;
+		}
+		.menu ul li {display: inline;}
+		.menu {
+			float: right;
+			margin-top: -200px;
+			width: 400px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 12pt;
+			color: #8C8C8C;
+			word-spacing: 0.3em;
+		}
+		.list ul li {display: inline;}
+		.list {
+			margin: -50px;
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 12pt;
+			color: #4B4B4B;
+			word-spacing: 0.3em;
+			text-align: center;
+		}
+
+		.mainbanner{
+			width: 100%;
+			height: auto;
+			margin-bottom: 100px;
+		}
+		.sec{
+			max-width: 1280px;
+			width: 100%;
+		}
+		.circlebanner{
+			width: 100%;
+			height: 300px;
+			margin-bottom: 200px;
+
+		}
+		.cbleft{
+			width: 49%;
+			height: auto;
+			float: left;
+		}
+		.cbright{
+			width: 49%;
+			height: auto;
+			float: right;
+		}
+		.cb1{
+			width: auto;
+			height: auto;
+			float: left;
+			text-align: center;
+			overflow: hidden;
+		}
+		.cb2{
+			width: auto;
+			height: auto;
+			float: right;
+			text-align: center;
+			overflow: hidden;
+		}
+		.cb1:hover{
+			transform: scale(1.1);
+			transition: 1s;
+		}
+		.cb2:hover{
+			transform: scale(1.1);
+			transition: 1s;
+		}
+		.newsbanner{
+			width: 100%;
+			height: 300px;
+			border-top: 1px solid #CFCFCF;
+			padding-top: 100px;
+			margin-bottom: 100px;
+		}
+		.nb1{
+			width: 33%;
+			height: 100%;
+			float: left;
+		}
+		.nb2{
+			width: 33%;
+			height: 100%;
+			float: right;
+		}
+		.nb1_1{
+			width: 99%;
+			height: 90%;
+			border: 1px solid #CFCFCF;
+		}
+		.lookbookbanner{
+			width: 100%;
+			height: 300px;
+			background-color: #EBDEFE;
+			margin-bottom: 200px;
+		}
+		.productbanner1{
+			width: 100%;
+			height: 250px;
+			padding-top: 100px;
+			margin-bottom: 100px;
+			border-top: 5px solid black;
+		}
+		.newar{
+			width: 100%;
+			height: 50px;
+			padding: 20px;
+			font-family: 'Staatliches', cursive;
+			font-size: 30pt;
+			text-align: center;
+		}
+		.pbleft{
+			width: 49%;
+			height: 100%;
+			float: left;
+		}
+		.pbright{
+			width: 49%;
+			height: 100%;
+			float: right;
+		}
+		.pb1{
+			width: 48.5%;
+			height: 100%;
+			float: left;
+			background-color: #CFCFCF;
+		}
+		.pb2{
+			width: 48.5%;
+			height: 100%;
+			float: right;
+			background-color: #CFCFCF;
+		}
+		.productbanner2{
+			width: 100%;
+			height: 250px;
+			padding-top: 100px;
+			margin-bottom: 100px;
+		}
+
+		footer{
+			width: 100%;
+			height: 200px;
+			margin-top: 400px;
+			border-top: 1px solid #CFCFCF;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		.foottitle{
+			max-width: 1280px;
+			width: 100%;
+			height: 100%;
+		}
+		.ftleft{
+			width: 49%;
+			height: 100%;
+			float: left;
+		}
+		.ftright{
+			width: 49%;
+			height: 100%;
+			float: right;
+		}
+		.ft1{
+			width: 48.5%;
+			height: 100%;
+			float: left;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 12pt;
+			color: #4B4B4B;
+		}
+		.ft2{
+			width: 48.5%;
+			height: 100%;
+			float: right;
+			font-family: 'Hammersmith One', sans-serif;
+			font-size: 12pt;
+			color: #4B4B4B;
+		}
+		.ft1_1{
+			width: 100%;
+			height: 90%;
+			border: 1px solid #4B4B4B;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="fixtitle">
+			<div class="title">
+				<div class="menu">
+					<ul>
+						<li>LOGIN | </li>
+						<li>JOINUS | </li>
+						<li>CART | </li>
+						<li>MYPAGE</li>
+					</ul>
+				</div>
+				<div class="adorable">adorable</div>
+				<div class="list">
+					<ul>
+						<li>≡ &nbsp;</li>
+						<li>NEW &nbsp;</li>
+						<li>BEST &nbsp;</li>
+						<li>WEAR &nbsp;</li>
+						<li>ACCESSORY &nbsp;</li>
+						<li>TOY &nbsp;</li>
+						<li>SNACK &nbsp;</li>
+						<li>LOOKBOOK &nbsp;</li>
+						<li>ADORABLE NEWS</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="mainbanner"><img src="../image/KakaoTalk_20211112_190201042.jpg"></div>
+			<div class="sec">
+			<div class="circlebanner">
+				<div class="cbleft">
+					<div class="cb1">
+						<img src="../image/KakaoTalk_20211115_001911015.jpg">
+					</div>
+					<div class="cb2">
+						<img src="../image/KakaoTalk_20211115_001911015_01.jpg">
+					</div>
+				</div>
+				<div class="cbright">
+					<div class="cb1">
+						<img src="../image/KakaoTalk_20211115_001911015_02.jpg">
+					</div>
+					<div class="cb2">
+						<img src="../image/KakaoTalk_20211115_001911015_03.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="newsbanner">
+				<div class="nb1">NOTICE & NEWS
+					<div class="nb1_1"></div>
+				</div>
+				<div class="nb1">EVENT
+					<div class="nb1_1"></div>
+				</div>
+				<div class="nb2">JOIN US
+					<div class="nb1_1"></div>
+				</div>
+			</div>
+			<div class="lookbookbanner">LOOK BOOK</div>
+			<div class="productbanner1">
+				<div class="newar">NEW ARRIVALS</div>
+				<div class="pbleft">
+					<div class="pb1">product1</div>
+					<div class="pb2">product2</div>
+				</div>
+				<div class="pbright">
+					<div class="pb1">product3</div>
+					<div class="pb2">product4</div>
+				</div>
+			</div>
+			<div class="productbanner2">
+				<div class="newar">BEST PRODUCT</div>
+				<div class="pbleft">
+					<div class="pb1">product1</div>
+					<div class="pb2">product2</div>
+				</div>
+				<div class="pbright">
+					<div class="pb1">product3</div>
+					<div class="pb2">product4</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="foottitle">
+			<div class="ftleft">
+				<div class="ft1">COMPANY ㈜adorable
+					<div class="ft1_1"></div>
+				</div>
+				<div class="ft2">C/S CENTER
+					<div class="ft1_1"></div>
+				</div>
+			</div>
+			<div class="ftright">
+				<div class="ft1">BANK ACCOUNT
+					<div class="ft1_1"></div>
+				</div>
+				<div class="ft2">SOCIAL LINK
+					<div class="ft1_1"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
